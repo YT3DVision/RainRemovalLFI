@@ -18,7 +18,7 @@ We propose the powerful end-to-end deep learning model for rain-streak removal o
 
 ## Dataset
 
-        Our dataset can be downloaded from the following link https://cowtransfer.com/s/873bd761954b44. It is also possible to extract these data from cowtransfer.com using the transfer password 4cavo5.
+Our dataset can be downloaded from the following link https://cowtransfer.com/s/873bd761954b44. It is also possible to extract these data from https://cowtransfer.com/ using the transfer password 4cavo5.
 
 ##Dataset Composition：
 
