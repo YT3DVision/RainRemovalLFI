@@ -28,7 +28,7 @@ We propose the powerful end-to-end deep learning model for rain-streak removal o
         
                 --gt
         
-                --depth # Depth maps exported by Blender
+                --depth # Depth maps exported by Blender.
 example:
 
 ![image](https://user-images.githubusercontent.com/93031356/160370203-478b7461-230f-43e6-a933-1c9945dd7fb6.png)
@@ -41,7 +41,7 @@ example:
         
                 --rain # Rain streak images synthesized with Blender.
         
-                --rain_disp # Rain streak images with fog
+                --rain_disp # Rain streak images with fog.
                 
 example:
 
