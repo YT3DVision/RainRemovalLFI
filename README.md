@@ -18,26 +18,32 @@ We propose the powerful end-to-end deep learning model for rain-streak removal o
 
 ## Dataset
 
-        Our dataset can be downloaded at the following link:https://cowtransfer.com/s/873bd761954b44
+        Our dataset can be downloaded at the following link:https://cowtransfer.com/s/873bd761954b44 or  Open [Cow Express] cowtransfer.com and use the transfer password: 4cavo5 to extract;
 
 ##Dataset Composition：
 
-        --syn_data1 #Rain light field data made by Blender.
+        --syn_data1 # Rainy light field images synthesized with Blender.
 
                 --input
         
                 --gt
         
-                --depth
+                --depth # Depth maps exported by Blender
+example:
+
+![image](https://user-images.githubusercontent.com/93031356/160370203-478b7461-230f-43e6-a933-1c9945dd7fb6.png)
         
-        --syn_data #Rain light field data synthesized with the real-world background.
+        --syn_data # Rainy light field images synthesized by taking real-world light field images as clean background.
 
                 --input
         
                 --gt
         
-                --rain
+                --rain # Rain streak images synthesized with Blender.
         
-                --rain_disp #Rain streak image with fog
+                --rain_disp # Rain streak images with fog
+                
+example:
+
         
-        --real # real-world rain light field data captured with Lytro Illum camera.
+        --real # real-world rainy light field images captured with Lytro Illum camera.
